@@ -6,6 +6,7 @@ using namespace std;
 
 void calc_soon();
 void quadratic_eq();
+void cubic_eq();
 void simple_math();
 int eq_num();
 
@@ -54,6 +55,7 @@ int eq_num() {
 
     std::cout << "Do you want a quadratic equation or a more difficult calculation? \n" <<
         "For quadratic equation, enter the number 1. \n" <<
+        "For qube equation, enter the number 2. \n" << 
         "For something more difficult, enter the number 2. \n" << endl;
     std::cout << "Enter the number you want: ";
     std::cin >> num5;
@@ -64,6 +66,9 @@ int eq_num() {
     else if (num5 == 2) {
         calc_soon();
     }
+    /*else if (num5 == 3) {
+        cubic_eq();
+    }*/
 
     return num5;
 }

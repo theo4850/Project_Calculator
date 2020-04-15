@@ -27,5 +27,8 @@
     <ClCompile Include="simple_math.cpp">
       <Filter>Source Files\Code</Filter>
     </ClCompile>
+    <ClCompile Include="Qubic equations.cpp">
+      <Filter>Source Files\Code</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

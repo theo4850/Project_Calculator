@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClCompile Include="Calc.cpp" />
     <ClCompile Include="Quadratic_equations.cpp" />
+    <ClCompile Include="Qubic equations.cpp" />
     <ClCompile Include="simple_math.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
