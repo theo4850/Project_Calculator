@@ -13,16 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Code">
+      <UniqueIdentifier>{c8105828-eb55-4057-ba7d-fefef43ebebf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Calc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="simple_math.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Code</Filter>
     </ClCompile>
     <ClCompile Include="Quadratic_equations.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_math.cpp">
+      <Filter>Source Files\Code</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
