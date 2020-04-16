@@ -6,7 +6,6 @@ using namespace std;
 
 void calc_soon();
 void quadratic_eq();
-void cubic_eq();
 void simple_math();
 int eq_num();
 
@@ -66,9 +65,6 @@ int eq_num() {
     else if (num5 == 2) {
         calc_soon();
     }
-    /*else if (num5 == 3) {
-        cubic_eq();
-    }*/
 
     return num5;
 }
